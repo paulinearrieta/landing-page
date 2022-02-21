@@ -1,0 +1,142 @@
+body {
+    font-family: 'Roboto', arial;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+.container {
+    background-color: #1F2937;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding:15px 400px 75px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+}
+
+.awesome {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+
+.signup,
+.signup2 {
+    background-color: #3882F6;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+    display: flex;
+    width: 100px;
+    padding: 6px;
+    justify-content: center;
+    margin-top: 16px;
+}
+
+.img {
+    background-color: #E5E7EB;
+    width: auto;
+    height: 250px;
+    display: flex;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    padding: 50px 50px;
+}
+
+.random {
+    font-size: 30px;
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+.container2 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.container2 img {
+    width: 200px;
+    height: 200px;
+}
+
+.pics{
+    display: flex;
+    gap: 80px;
+}
+
+.card {
+    text-align: center;
+}
+
+.card img {
+    border-radius: 10px;
+}
+
+
+.quote {
+    background-color: #E5E7EB;
+    padding: 50px 400px;
+    display: flex;
+    flex-direction: column;
+}
+
+.iquote {
+    font-size: 25px;
+    color: #1F2937;
+}
+
+.sayer {
+    font-size: 25px;
+    font-weight: bold;
+    display: flex;
+    justify-content: end;
+    margin-top: 8px;
+}
+
+.bottom {
+    background-color: #3882F6;
+    color: white;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 350px;
+    padding: 20px;
+}
+
+.call {
+    font-weight: bold;
+}
+
+.signup2,
+.text2 {
+    margin: auto;
+}
+
+.footer {
+    background-color: #1F2937;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
